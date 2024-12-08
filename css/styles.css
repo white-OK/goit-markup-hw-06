@@ -286,7 +286,7 @@ p {
 @media only screen and (min-width: 1158px) {
 .hero {
         padding: 188px 0;
-        max-width: 1158px;
+        max-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero/people-office_desc@1x.jpg');
     }
 .hero-title {
@@ -335,6 +335,9 @@ p {
 }
     .advantages-item {
         width: calc((100% - 24px) / 2);
+    }
+    .advantages-subtitle {
+        text-align: left;
     }
 }
 @media only screen and (min-width: 1158px) {
@@ -664,12 +667,12 @@ p {
     fill: #fff;
     margin-left: 16px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1157px) {
 .ftr {
         padding-left: 108px;
         padding-right: 108px;
     }
-}
+} */
 @media only screen and (min-width: 768px) {
 .ftr-container {
         flex-direction: row;
@@ -677,6 +680,8 @@ p {
         gap: 72px 24px;
         text-align: left;
         flex-wrap: wrap;
+        padding: 0 108px;
+
   }
 .ftr-descr {
         max-width: 264px;
@@ -695,6 +700,7 @@ p {
     }
 .ftr-container {
     gap: 0;
+    padding: 0 15px;
 }
 .ftr-wrapper {
     margin-right: 120px;
@@ -969,6 +975,9 @@ p {
 }
 .menu-address {
     margin-bottom: 48px;
+}
+.menu-icon {
+    justify-content: space-between;
 }
 .mobile-menu-contacts {
     display: flex;
